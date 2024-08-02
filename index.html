@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang Out</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div id="password-container">
+        <p>名前をローマ字で入力してください(例:山田太郎→Taro):</p>
+        <input type="password" id="password-input">
+        <button id="password-button">送信</button>
+        <p id="error-message" style="color: red; display: none;">アクセス権限がありません。</p>
+    </div>
+    <div id="question-container" style="display: none;">
+        <p id="question">一緒に映画行かない？</p>
+        <button id="yes-button">うん🙆</button>
+        <button id="no-button">うーん🙅‍♀️</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
